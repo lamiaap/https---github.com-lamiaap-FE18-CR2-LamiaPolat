@@ -1,0 +1,42 @@
+.img {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.navbar {
+  position: absolute;
+}
+
+p1{
+  font-size: larger;
+  font-weight:bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:left;
+}
+
+p{
+  text-align:right ;
+  font-size: medium;
+  font-weight:bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+footer{
+  display: flex;
+  background-color: black;
+  color:white;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+/* @media  screen and (min-width:481px) and (max-width:768px) {
+  container{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
